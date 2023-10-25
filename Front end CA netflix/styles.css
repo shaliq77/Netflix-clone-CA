@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@1,300&display=swap');
+
+body{
+    background-color: rgb(20, 19, 19);
+    font-family: 'Montserrat', sans-serif;
+}
+.biglogo{
+    width: 80px;
+    position: relative;
+    right: -30px;
+    margin-top: -10%;
+}
+.nav-left{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 25px;
+    color: #d4c8c8;
+    font-size: 15px;
+    align-items: center;
+    position: relative;
+    margin-top: -59%;
+    right: -28px;
+    
+}
+.menu{
+    position: relative;
+    right: -130px;
+    margin-top: -3.5%;
+    border-spacing: 20px;
+}
+.L{
+    color: white;
+    font-size: larger;
+}
+.nav-rigth{
+    position: relative;
+    right: -80%;
+    margin-top: -3%;
+}
+.f{
+    padding-right: 1.5%;
+    width: 20px;
+}
+.profilepic{
+    border-radius: 2%;
+}
+.N{
+    width: 20px;
+}
+.showtext{
+    position: relative;
+    right: -2%;
+    margin-top: -2.2%;
+}
+.show{
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    right: -62px;
+    margin-top: 290px;
+}
+.maid{
+    font-family:'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    right: -53px;
+    margin-top: -5%;
+}
+.t{
+    font-family:'Montserrat', sans-serif;
+}
+.buttonright{
+    position: relative;
+    right: -4.3%;
+    bottom: 55px;
+    
+}
+.playbutton{
+    background-color: white;
+    margin: 4px 2px;
+    align-items: center;
+    width: 8%;
+    text-align: center;
+    
+}
+
+.tiptop{
+    border-spacing: 100px;
+    position: relative;
+    right: 6%;
+}
+
+.img1{
+    position: relative;
+    right: -40px;
+    border-spacing: 19px;
+    margin-top: 90px;
+}
+.tab2{
+    position: relative;
+    border-spacing: 152px;
+    margin-top: -460px;
+}
+.and{
+    position: relative;
+    bottom: 190px;
+}
+.txt{
+    color: white;
+    position: relative;
+    right: -50px;
+
+}
+.m{
+    position: relative;
+    right: -130px;
+    bottom: 35px;
+}
+.sev{
+    position: relative;
+    right: -27px;
+    bottom: -140px;
+}
