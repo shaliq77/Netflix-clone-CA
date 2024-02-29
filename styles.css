@@ -1,6 +1,56 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@1,300&display=swap');
 
+
+
+/* Default styles for all screen sizes */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-left {
+        display: none; /* Hide left navigation bar on smaller screens */
+    }
+
+    .nav-rigth {
+        justify-content: center; /* Center align right navigation items */
+        margin-top: 10px;
+    }
+
+    .show {
+        text-align: center;
+    }
+
+    .maid h1 {
+        font-size: 24px; /* Adjust heading size for smaller screens */
+    }
+
+    .buttonright {
+        text-align: center;
+    }
+
+    .images .sev {
+        text-align: center;
+    }
+
+    .images table {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .nav-left {
+    }
+}
+@media only screen and (min-width: 1025px) {
+}
+
 body{
     background-color: rgb(20, 19, 19);
     font-family: 'Montserrat', sans-serif;
