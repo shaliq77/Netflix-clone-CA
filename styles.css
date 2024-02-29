@@ -1,25 +1,155 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@1,300&display=swap');
 
-
-
 /* Default styles for all screen sizes */
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: rgb(20, 19, 19);
     color: #fff;
 }
 
+/* Global styles */
+.biglogo {
+    width: 80px;
+    position: relative;
+    right: -30px;
+    margin-top: -10%;
+}
+
+.nav-left {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 25px;
+    color: #d4c8c8;
+    font-size: 15px;
+    align-items: center;
+    position: relative;
+    margin-top: -59%;
+    right: -28px;
+}
+
+.menu {
+    position: relative;
+    right: -130px;
+    margin-top: -3.5%;
+    border-spacing: 20px;
+}
+
+.L {
+    color: white;
+    font-size: larger;
+}
+
+.nav-rigth {
+    position: relative;
+    right: -80%;
+    margin-top: -3%;
+}
+
+.f {
+    padding-right: 1.5%;
+    width: 20px;
+}
+
+.profilepic {
+    border-radius: 2%;
+}
+
+.N {
+    width: 20px;
+}
+
+.showtext {
+    position: relative;
+    right: -2%;
+    margin-top: -2.2%;
+}
+
+.show {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    right: -62px;
+    margin-top: 290px;
+}
+
+.maid {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    right: -53px;
+    margin-top: -5%;
+}
+
+.t {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttonright {
+    position: relative;
+    right: -4.3%;
+    bottom: 55px;
+}
+
+.playbutton {
+    background-color: white;
+    margin: 4px 2px;
+    align-items: center;
+    width: 8%;
+    text-align: center;
+}
+
+.tiptop {
+    border-spacing: 100px;
+    position: relative;
+    right: 6%;
+}
+
+.img1 {
+    position: relative;
+    right: -40px;
+    border-spacing: 19px;
+    margin-top: 90px;
+}
+
+.tab2 {
+    position: relative;
+    border-spacing: 152px;
+    margin-top: -460px;
+}
+
+.and {
+    position: relative;
+    bottom: 190px;
+}
+
+.txt {
+    color: white;
+    position: relative;
+    right: -50px;
+}
+
+.m {
+    position: relative;
+    right: -130px;
+    bottom: 35px;
+}
+
+.sev {
+    position: relative;
+    right: -27px;
+    bottom: -140px;
+}
+
+/* Media queries for smaller screens */
 @media only screen and (max-width: 600px) {
     .nav-left {
-        display: none; /* Hide left navigation bar on smaller screens */
+        display: none;
     }
 
     .nav-rigth {
-        justify-content: center; /* Center align right navigation items */
+        justify-content: center;
         margin-top: 10px;
     }
 
@@ -28,7 +158,7 @@ body {
     }
 
     .maid h1 {
-        font-size: 24px; /* Adjust heading size for smaller screens */
+        font-size: 24px;
     }
 
     .buttonright {
@@ -44,131 +174,107 @@ body {
     }
 }
 
+/* Media queries for medium-sized screens */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .nav-left {
+        /* Add styles for medium-sized screens */
+    }
+
+    .nav-rigth {
+        /* Add styles for medium-sized screens */
+    }
+
+    .biglogo {
+        width: 60px; /* Adjust logo size for medium screens */
+    }
+
+    .show {
+        margin-top: 150px; /* Adjust margin for the show section */
+    }
+
+    .maid {
+        font-size: 40px; /* Adjust font size for the main heading */
+        margin-top: -3%; /* Adjust margin for the main heading */
+    }
+
+    .tiptop {
+        right: 4%; /* Adjust position for the image section rankings */
+    }
+
+    .img1 {
+        right: -30px; /* Adjust position for the first image section */
+        margin-top: 40px; /* Adjust margin for the first image section */
+    }
+
+    .tab2 {
+        border-spacing: 80px; /* Adjust spacing for the second image section */
+        margin-top: -300px; /* Adjust margin for the second image section */
+    }
+
+    .and {
+        bottom: 150px; /* Adjust position for the "and" section */
+    }
+
+    .sev {
+        right: -17px; /* Adjust position for the "see again" section */
+        bottom: -90px; /* Adjust margin for the "see again" section */
+    }
+
+    .buttonright {
+        right: -3%; /* Adjust position for the buttons */
+        bottom: 40px; /* Adjust margin for the buttons */
     }
 }
+
+
+/* Media queries for larger screens */
 @media only screen and (min-width: 1025px) {
-}
+    .nav-left {
+        /* Add styles for larger screens */
+    }
 
-body{
-    background-color: rgb(20, 19, 19);
-    font-family: 'Montserrat', sans-serif;
-}
-.biglogo{
-    width: 80px;
-    position: relative;
-    right: -30px;
-    margin-top: -10%;
-}
-.nav-left{
-    font-family:'Montserrat', sans-serif;
-    font-weight: 25px;
-    color: #d4c8c8;
-    font-size: 15px;
-    align-items: center;
-    position: relative;
-    margin-top: -59%;
-    right: -28px;
-    
-}
-.menu{
-    position: relative;
-    right: -130px;
-    margin-top: -3.5%;
-    border-spacing: 20px;
-}
-.L{
-    color: white;
-    font-size: larger;
-}
-.nav-rigth{
-    position: relative;
-    right: -80%;
-    margin-top: -3%;
-}
-.f{
-    padding-right: 1.5%;
-    width: 20px;
-}
-.profilepic{
-    border-radius: 2%;
-}
-.N{
-    width: 20px;
-}
-.showtext{
-    position: relative;
-    right: -2%;
-    margin-top: -2.2%;
-}
-.show{
-    font-family:'Montserrat', sans-serif;
-    color: white;
-    position: relative;
-    right: -62px;
-    margin-top: 290px;
-}
-.maid{
-    font-family:'Montserrat', sans-serif;
-    font-size: 50px;
-    color: white;
-    position: relative;
-    right: -53px;
-    margin-top: -5%;
-}
-.t{
-    font-family:'Montserrat', sans-serif;
-}
-.buttonright{
-    position: relative;
-    right: -4.3%;
-    bottom: 55px;
-    
-}
-.playbutton{
-    background-color: white;
-    margin: 4px 2px;
-    align-items: center;
-    width: 8%;
-    text-align: center;
-    
-}
+    .nav-rigth {
+        /* Add styles for larger screens */
+    }
 
-.tiptop{
-    border-spacing: 100px;
-    position: relative;
-    right: 6%;
-}
+    .biglogo {
+        width: 100px; /* Adjust logo size for larger screens */
+    }
 
-.img1{
-    position: relative;
-    right: -40px;
-    border-spacing: 19px;
-    margin-top: 90px;
-}
-.tab2{
-    position: relative;
-    border-spacing: 152px;
-    margin-top: -460px;
-}
-.and{
-    position: relative;
-    bottom: 190px;
-}
-.txt{
-    color: white;
-    position: relative;
-    right: -50px;
+    .show {
+        margin-top: 300px; /* Adjust margin for the show section */
+    }
 
-}
-.m{
-    position: relative;
-    right: -130px;
-    bottom: 35px;
-}
-.sev{
-    position: relative;
-    right: -27px;
-    bottom: -140px;
+    .maid {
+        font-size: 60px; /* Adjust font size for the main heading */
+        margin-top: -7%; /* Adjust margin for the main heading */
+    }
+
+    .tiptop {
+        right: 8%; /* Adjust position for the image section rankings */
+    }
+
+    .img1 {
+        right: -50px; /* Adjust position for the first image section */
+        margin-top: 100px; /* Adjust margin for the first image section */
+    }
+
+    .tab2 {
+        border-spacing: 120px; /* Adjust spacing for the second image section */
+        margin-top: -600px; /* Adjust margin for the second image section */
+    }
+
+    .and {
+        bottom: 250px; /* Adjust position for the "and" section */
+    }
+
+    .sev {
+        right: -37px; /* Adjust position for the "see again" section */
+        bottom: -200px; /* Adjust margin for the "see again" section */
+    }
+
+    .buttonright {
+        right: -5%; /* Adjust position for the buttons */
+        bottom: 80px; /* Adjust margin for the buttons */
+    }
 }
